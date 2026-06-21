@@ -1,0 +1,14 @@
+# zależności
+node_modules/
+
+# build frontendu
+dist/
+frontend/dist/
+
+# logi
+*.log
+npm-debug.log*
+
+# systemowe
+.DS_Store
+Thumbs.db
