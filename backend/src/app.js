@@ -79,7 +79,7 @@ async function start() {
 
     // alter:true = wygodna auto-aktualizacja schematu w dev.
     // Na produkcji zamiast tego używa się migracji.
-    await sequelize.sync({ alter: true });
+    //await sequelize.sync({ alter: true });
     console.log("Modele (PostgreSQL) zsynchronizowane");
 
     // MongoDB (testy online). Gdyby był niedostępny, reszta API i tak wstaje.
